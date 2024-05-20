@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academy - Paradise Academy</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+            position: relative;
+        }
+
+        .logo-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .logo-container img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            border: 5px solid white;
+            position: relative;
+            z-index: 2;
+        }
+
+        .logo-ring {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 100px;
+            height: 100px;
+            border: 2px solid white;
+            border-radius: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 1;
+        }
+
+        nav {
+            background: #444;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 5px 10px;
+            margin: 0 5px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            color: #444;
+            margin-bottom: 10px;
+        }
+
+        .content-section {
+            margin-bottom: 20px;
+        }
+
+        .content-section p {
+            margin-bottom: 10px;
+        }
+
+        .content-section ul {
+            margin-left: 20px;
+            list-style-type: disc;
+        }
+
+        .media-section {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .media-section img, .media-section video {
+            width: calc(50% - 10px);
+            border-radius: 5px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: #333;
+            color: white;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <div class="logo-ring"></div>
+            <img src="logo.jpeg" alt="Paradise Academy Logo">
+        </div>
+    </header>
+    
+    <nav>
+        <a href="index.html">Home</a>
+    </nav>
+    
+    <div class="container">
+        <h1>Academy Information</h1>
+        
+        <div class="content-section">
+            <h2>About Paradise Academy</h2>
+            <p>Paradise Academy is dedicated to providing a nurturing and enriching environment for students to excel academically and personally. Our academy offers a wide range of programs and activities designed to foster growth and development.</p>
+        </div>
+
+        <div class="content-section">
+            <h2>Programs Offered</h2>
+            <p>We offer a variety of programs to cater to the diverse interests and needs of our students:</p>
+            <ul>
+                <li>Science and Technology</li>
+                <li>Arts and Humanities</li>
+                <li>Sports and Physical Education</li>
+                <li>Extracurricular Activities</li>
+                <li>Community Service</li>
+            </ul>
+        </div>
+
+        <div class="content-section">
+            <h2>Faculty and Staff</h2>
+            <p>Our experienced and dedicated faculty and staff are committed to providing the highest quality education and support to our students. Each member of our team is passionate about teaching and fostering a positive learning environment.</p>
+        </div>
+
+        <div class="content-section">
+            <h2>Student Life</h2>
+            <p>At Paradise Academy, student life is vibrant and dynamic. We encourage students to engage in a variety of activities and clubs to develop their interests and build lasting friendships.</p>
+        </div>
+
+        <div class="content-section">
+            <h2>Explore Our Campus</h2>
+            <div class="media-section">
+                <img src="https://www.shutterstock.com/image-photo/urbana-illinois-april-17-2016-260nw-1037739901.jpg" alt="Campus Image 1">
+                <img src="https://www.fdu.edu/wp-content/uploads/2019/08/Florham-Campus-1280x0-c-default.jpg" alt="Campus Image 2">
+                <video controls>
+                    <source src="video.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <video controls>
+                    <source src="video2.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <p>&copy; 2024 Paradise Academy. All rights reserved.</p>
+    </footer>
+</body>
+</html>

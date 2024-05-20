@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Paradise Academy</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+            position: relative;
+        }
+
+        .logo-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .logo-container img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            border: 5px solid white;
+            position: relative;
+            z-index: 2;
+        }
+
+        .logo-ring {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 100px;
+            height: 100px;
+            border: 2px solid white;
+            border-radius: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 1;
+        }
+
+        nav {
+            background: #444;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 5px 10px;
+            margin: 0 5px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1, h2 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        p {
+            margin-bottom: 10px;
+        }
+
+        .content-section {
+            margin-bottom: 20px;
+        }
+
+        .staff-section {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .staff-section h2 {
+            margin-bottom: 10px;
+        }
+
+        .staff-grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .staff-member {
+            text-align: center;
+        }
+
+        .staff-member img {
+            border-radius: 50%;
+            border: 5px solid white;
+            object-fit: cover;
+        }
+
+        .head-of-school img {
+            width: 150px;
+            height: 150px;
+        }
+
+        .head-of-department img {
+            width: 120px;
+            height: 120px;
+        }
+
+        .staff img {
+            width: 100px;
+            height: 100px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: #333;
+            color: white;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <div class="logo-ring"></div>
+            <img src="logo.jpeg" alt="Paradise Academy Logo">
+        </div>
+    </header>
+    
+    <nav>
+        <a href="index.html">Home</a>
+    </nav>
+    
+    <div class="container">
+        <h1>About Us</h1>
+        
+        <div class="content-section">
+            <h2>Our Mission</h2>
+            <p>At Paradise Academy, our mission is to inspire and educate students to become compassionate, responsible, and well-rounded individuals who are prepared to make meaningful contributions to society. We strive to create a nurturing environment where each student can thrive academically, socially, and emotionally.</p>
+        </div>
+
+        <div class="content-section">
+            <h2>Our Vision</h2>
+            <p>We envision a world where education empowers individuals to reach their full potential and contribute positively to their communities. At Paradise Academy, we aim to be a leader in innovative and inclusive education, fostering a love for learning that lasts a lifetime.</p>
+        </div>
+
+        <div class="content-section">
+            <h2>Our Values</h2>
+            <p>We believe in:</p>
+            <ul>
+                <li>Excellence: Striving for the highest standards in all we do.</li>
+                <li>Integrity: Acting with honesty and transparency.</li>
+                <li>Respect: Valuing diversity and treating everyone with dignity.</li>
+                <li>Collaboration: Working together to achieve common goals.</li>
+                <li>Innovation: Embracing new ideas and approaches.</li>
+            </ul>
+        </div>
+
+        <div class="content-section">
+            <h2>Our History</h2>
+            <p>Founded in 1990, Paradise Academy has grown from a small community school to a renowned institution known for its academic excellence and holistic approach to education. Our journey has been marked by continuous growth and improvement, always keeping the best interests of our students at heart.</p>
+        </div>
+
+        <div class="staff-section">
+            <h2>Meet Our Staff</h2>
+            <div class="staff-grid">
+                <div class="staff-member head-of-school">
+                    <img src="https://img.freepik.com/free-photo/portrait-expressive-young-man-wearing-formal-suit_273609-6943.jpg?size=626&ext=jpg&ga=GA1.1.2082370165.1716076800&semt=ais_user" alt="Head of School">
+                    <h3>John Doe</h3>
+                    <p>Head of School</p>
+                </div>
+                <div class="staff-member head-of-department">
+                    <img src="https://img.freepik.com/free-photo/portrait-young-lady-white-suit-confident_285396-246.jpg?size=626&ext=jpg&ga=GA1.1.553209589.1715040000&semt=ais" alt="Head of Science Department">
+                    <h3>Jane Smith</h3>
+                    <p>Head of Science Department</p>
+                </div>
+                <div class="staff-member head-of-department">
+                    <img src="https://t3.ftcdn.net/jpg/04/96/07/82/360_F_496078236_AKomo4gH6ykR43XmsGeAF6pI8CQAlSGa.jpg" alt="Head of Arts Department">
+                    <h3>Emily Johnson</h3>
+                    <p>Head of Arts Department</p>
+                </div>
+                <div class="staff-member staff">
+                    <img src="https://t3.ftcdn.net/jpg/01/29/01/40/360_F_129014028_MoFKy7TH19Y5I5zAh7O4k0OYe3l7xPM9.jpg" alt="Staff Member">
+                    <h3>Michael Brown</h3>
+                    <p>Teacher</p>
+                </div>
+                <div class="staff-member staff">
+                    <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8d29tYW4lMjBpbiUyMHN1aXR8ZW58MHx8MHx8fDA%3D" alt="Staff Member">
+                    <h3>Linda Davis</h3>
+                    <p>Teacher</p>
+                </div>
+                <div class="staff-member staff">
+                    <img src="https://www.shutterstock.com/image-photo/portrait-handsome-caucasian-man-formal-260nw-2142820441.jpg" alt="Staff Member">
+                    <h3>William Wilson</h3>
+                    <p>Teacher</p>
+                </div>
+                <div class="staff-member staff">
+                    <img src="https://img.freepik.com/free-photo/close-up-photo-young-successful-business-man-black-suit_171337-9509.jpg" alt="Staff Member">
+                    <h3>Michael Brown</h3>
+                    <p>Teacher</p>
+                </div>
+                <div class="staff-member staff">
+                    <img src="https://img.freepik.com/free-photo/businesswoman-posing-outdoors_23-2149405877.jpg" alt="Staff Member">
+                    <h3>Linda Davis</h3>
+                    <p>Teacher</p>
+                </div>
+                <div class="staff-member staff">
+                    <img src="https://www.shutterstock.com/image-photo/portrait-handsome-caucasian-man-formal-260nw-2142820441.jpg" alt="Staff Member">
+                    <h3>William Wilson</h3>
+                    <p>Teacher</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <p>&copy; 2024 Paradise Academy. All rights reserved.</p>
+    </footer>
+</body>
+</html>

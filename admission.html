@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission - Paradise Academy</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-image: url('https://www.shutterstock.com/image-photo/urbana-illinois-april-17-2016-260nw-1037739901.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+            position: relative;
+        }
+
+        .logo-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .logo-container img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            border: 5px solid white;
+            position: relative;
+            z-index: 2;
+        }
+
+        .logo-ring {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 100px;
+            height: 100px;
+            border: 2px solid white;
+            border-radius: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 1;
+        }
+
+        nav {
+            background: #444;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 5px 10px;
+            margin: 0 5px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            color: #444;
+            margin-bottom: 10px;
+        }
+
+        .content-section {
+            margin-bottom: 20px;
+        }
+
+        .content-section p {
+            margin-bottom: 10px;
+        }
+
+        .content-section ul {
+            margin-left: 20px;
+            list-style-type: disc;
+        }
+
+        .media-section {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .media-section img, .media-section video {
+            width: calc(50% - 10px);
+            border-radius: 5px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: #333;
+            color: white;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+<body style="background-image: url('https://www.shutterstock.com/image-photo/urbana-illinois-april-17-2016-260nw-1037739901.jpg'); background-size: cover; background-repeat: no-repeat;">
+    <header>
+        <div class="logo-container">
+            <div class="logo-ring"></div>
+            <img src="logo.jpeg" alt="Paradise Academy Logo">
+        </div>
+    </header>
+    
+    <nav>
+        <a href="index.html">Home</a>
+    </nav>
+    
+    <div class="container">
+        <h1>Admission Information</h1>
+        
+        <div class="content-section">
+            <h2>Welcome to Paradise Academy</h2>
+            <p>At Paradise Academy, we are committed to providing an outstanding educational experience for our students. Our admission process is designed to ensure that we enroll students who are well-suited to thrive in our community.</p>
+        </div>
+
+        <div class="content-section">
+            <h2>Admission Requirements</h2>
+            <p>To apply for admission, please ensure that you meet the following requirements:</p>
+            <ul>
+                <li>Completed application form</li>
+                <li>Official transcripts from previous schools</li>
+                <li>Letters of recommendation</li>
+                <li>Personal statement or essay</li>
+                <li>Interview with the admissions committee</li>
+            </ul>
+        </div>
+
+        <div class="content-section">
+            <h2>Application Process</h2>
+            <p>Our application process is straightforward and can be completed in a few steps:</p>
+            <ul>
+                <li>Submit the online application form</li>
+                <li>Upload required documents</li>
+                <li>Schedule an interview</li>
+                <li>Receive admission decision</li>
+            </ul>
+        </div>
+
+        <div class="content-section">
+            <h2>Important Dates</h2>
+            <p>Please keep the following important dates in mind when applying:</p>
+            <ul>
+                <li>Application Deadline: January 31</li>
+                <li>Interview Dates: February 15 - March 15</li>
+                <li>Admission Decision: April 1</li>
+            </ul>
+        </div>
+
+        <div class="content-section">
+            <h2>Contact Information</h2>
+            <p>If you have any questions about the admission process, please contact our admissions office:</p>
+            <p>Email: admissions@paradiseacademy.edu</p>
+            <p>Phone: (123) 456-7890</p>
+        </div>
+
+        <div class="content-section">
+            <h2>Explore Our Campus</h2>
+            <div class="media-section">
+                <img src="https://t4.ftcdn.net/jpg/04/98/14/49/360_F_498144940_DkzvRAkgBv1ILU6DiDeMZr6vUufPOra4.jpg" alt="Campus Image 1">
+                <img src="https://cdn.pixabay.com/photo/2021/10/11/04/08/university-6699377_640.jpg" alt="Campus Image 2">
+                <video controls>
+                    <source src="video.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <video controls>
+                    <source src="video2.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <p>&copy; 2024 Paradise Academy. All rights reserved.</p>
+    </footer>
+</body>
+</html>
